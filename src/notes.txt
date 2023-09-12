@@ -1,0 +1,18 @@
+Props=> props are used to create components
+which allows us to make every element into an object that we can manupulate with by converting that element into a prop
+we pass props into the component function and inside the html, whatever element we want to manupulate can be written as {props.something}
+and that component can be passed in the main app.js by
+eg. we have a component Navbar.js
+so we pass by 
+<Navbar something="" title="" name="" aboutText=""> and it will display on the website
+hence the component is rendered into the react website  
+
+
+
+//Hooks and State
+const [text, setText] = useState('Enter text here'); //useState is a hook
+//here this syntax basically means the variable texts gets the 
+//value entered inside useState and that becomes default value of
+//text variable and later to update this variable we will use
+//setText function. setText updates the text variable in future.
+//Will be used a lot so just fix this syntax in head
